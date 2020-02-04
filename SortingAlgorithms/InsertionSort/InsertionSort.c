@@ -48,8 +48,8 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    // sorting the array using selectionSort function.
-    selectionSort(arr, num_of_elements);
+    // sorting the array using insertionSort function.
+    insertionSort(arr, num_of_elements);
 
     // printing the sorted array
     printf("Sorted Array:\n");

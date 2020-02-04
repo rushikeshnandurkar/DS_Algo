@@ -64,7 +64,7 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    // sorting the array using bubblesort function.
+    // sorting the array using quick function.
     quick(arr, 0, num_of_elements - 1);
 
     // printing the sorted array

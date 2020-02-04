@@ -52,7 +52,7 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    // sorting the array using bubblesort function.
+    // sorting the array using selectionSort function.
     selectionSort(arr, num_of_elements);
 
     // printing the sorted array

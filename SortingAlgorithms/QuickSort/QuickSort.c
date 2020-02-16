@@ -20,12 +20,12 @@ int partition(int arr[], int low, int high)
     {
         do
         {
-            low++;
-        } while (arr[low] < pivot); // low index stops where number greater than pivot is encountered
+            low++;  // low index stops where number greater than pivot is encountered
+        } while (arr[low] < pivot); 
         do
         {
-            high--;
-        } while (arr[high] > pivot); // high index stops where number lower than pivot is encountered
+            high--; // high index stops where number lower than pivot is encountered
+        } while (arr[high] > pivot); 
 
         if (low < high)
             swap(&arr[low], &arr[high]);

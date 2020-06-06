@@ -70,9 +70,9 @@ void print_list(node* head)
 
 node* reverse_list(node* head)
 {
-    node* prev = NULL;
     node* current = head;
     node* ahead = current;
+    node* prev = NULL;
 
     // logic starts
     while(current != NULL)

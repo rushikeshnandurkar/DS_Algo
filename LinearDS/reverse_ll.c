@@ -74,7 +74,6 @@ node* reverse_list(node* head)
     node* ahead = current;
     node* prev = NULL;
 
-    // logic starts
     while(current != NULL)
     {
         ahead = current->next;

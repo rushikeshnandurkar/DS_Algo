@@ -39,7 +39,7 @@ void printArray(int arr[], int n)
 
 int main() 
 {
-    // taking usorted array as an input from keyboard
+    // taking unsorted array as an input from keyboard
     int num_of_elements;
     scanf("%d", &num_of_elements);
 
